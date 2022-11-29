@@ -36,8 +36,8 @@ int OddElements(int[] arr)
     int result = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-    if (i % 2 == 1)
-    result += arr[i];
+        if (i % 2 == 1)
+        result += arr[i];
     }
     return result;
 }
